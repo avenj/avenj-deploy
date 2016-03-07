@@ -2,7 +2,6 @@ requires "Defaults::Modern" => "0";
 
 # App::
 requires "App::vaporcalc" => "0";
-requires "App::ack" => "0";
 requires "Reply"  => "0";
 requires "App::EvalServer" => "0";
 
