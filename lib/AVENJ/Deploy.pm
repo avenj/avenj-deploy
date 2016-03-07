@@ -1,5 +1,7 @@
 package AVENJ::Deploy;
 
+# ABSTRACT: My top-of-stack things.
+
 use strictures 1;
 
 
