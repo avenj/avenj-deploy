@@ -41,6 +41,10 @@ requires "MooX::Role::DependsOn" => "0";
 requires "MooX::TypeTiny" => "0";
 requires "Moops" => "0";
 
+# POE
+requires "POE::Component::SSLify" => "0";
+requires "POE::Filter::Zlib::Stream" => "0";
+
 # Term
 requires "Term::ReadLine::Perl" => "0";
 requires "Term::ReadLine::Perl5" => "0";
