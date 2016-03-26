@@ -60,5 +60,6 @@ requires "Type::Tiny::XS" => "0";
 
 # ZMQ
 requires "Convert::Z85" => "0";
+requires "Crypt::ZCert" => "0";
 requires "POEx::ZMQ" => "0";
 requires "Text::ZPL" => "0";
