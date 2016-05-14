@@ -1,9 +1,10 @@
 requires "Defaults::Modern" => "0";
 
 # App::
+requires "App::cpanoutdated" => "0";
 requires "App::vaporcalc" => "0";
-requires "Reply"  => "0";
 requires "App::EvalServer" => "0";
+requires "Reply"  => "0";
 
 # Bot::Cobalt
 requires "Bot::Cobalt" => "0";
