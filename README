@@ -1,1 +1,1 @@
-$ cpanm --installdeps https://github.com/avenj/avenj-deploy.git
+cpanm --installdeps https://github.com/avenj/avenj-deploy.git

@@ -19,6 +19,10 @@ requires "Bot::Cobalt::DB::Term" => "0";
 requires "DBD::SQLite" => "0";
 requires "DBIx::Class::Schema::Loader" => "0";
 
+# Devel
+requires "Devel::Confess" => "0";
+requires "Devel::CoverX::Covered" => "0";
+
 # DZil
 requires "Dist::Zilla" => "0";
 
