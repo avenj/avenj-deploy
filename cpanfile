@@ -45,7 +45,7 @@ requires "Mojolicious" => "0";
 # Moo
 requires "MooX::Role::DependsOn" => "0";
 requires "MooX::TypeTiny" => "0";
-requires "Moops" => "0";
+#requires "Moops" => "0";
 
 # POE
 requires "POE::Component::SSLify" => "0";
