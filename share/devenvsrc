@@ -1,0 +1,21 @@
+## Combine with an alias:
+##  alias devenv = 'source /path/to/this/file';
+if [ -n "$1" ]
+then
+  if [ "$1" = "-clear" ]
+  then
+    echo "Clearing DEVENVWORKINGDIR"
+    unset DEVENVWORKINGDIR
+  else
+    echo "Setting DEVENVWORKINGDIR to $1"
+    DEVENVWORKINGDIR=$1
+    export DEVENVWORKINGDIR
+  fi
+fi
+
+if [ -n "$DEVENVWORKINGDIR" ]
+then
+  cd "$DEVENVWORKINGDIR" && DEVENVWORKINGDIR=`pwd`
+else
+  echo "No DEVENVWORKINGDIR, doing nothing"
+fi
