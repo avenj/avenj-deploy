@@ -5,6 +5,8 @@ requires "App::cpanoutdated" => "0";
 requires "App::vaporcalc" => "0";
 requires "App::EvalServer" => "0";
 requires "Reply"  => "0";
+  requires "Carp::Reply" => "0";
+  requires "Proc::InvokeEditor" => "0";
 
 # Bot::Cobalt
 requires "Bot::Cobalt" => "0";
@@ -23,7 +25,6 @@ requires "DBIx::Class::Schema::Loader" => "0";
 requires "Devel::Confess" => "0";
 requires "Devel::CoverX::Covered" => "0";
 requires "Devel::Isa::Explainer" => "0";
-requires "Carp::Reply" => "0";
 requires "Pry" => "0";
 
 # DZil
