@@ -23,6 +23,8 @@ requires "DBIx::Class::Schema::Loader" => "0";
 requires "Devel::Confess" => "0";
 requires "Devel::CoverX::Covered" => "0";
 requires "Devel::Isa::Explainer" => "0";
+requires "Carp::Reply" => "0";
+requires "Pry" => "0";
 
 # DZil
 requires "Dist::Zilla" => "0";
