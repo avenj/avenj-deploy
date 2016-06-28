@@ -43,6 +43,9 @@ requires "JSON::MaybeXS"    => "0";
 # List
 requires "List::UtilsBy::XS" => "0";
 
+# LWP
+requires "LWP::UserAgent" => "0";
+
 # Mojo
 requires "Mojolicious" => "0";
 
